@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance with defaults
 const api = axios.create({
-  baseURL: '/api', // Uses proxy in development
+  baseURL: 'http://localhost:5000/api', // Uses proxy in development
   headers: {
     'Content-Type': 'application/json'
   }
