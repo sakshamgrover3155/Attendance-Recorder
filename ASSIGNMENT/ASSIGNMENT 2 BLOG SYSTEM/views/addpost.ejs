@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><i>📝 ADD NEW BLOG POST 📝</i></h1>
+    </header>
+
+    <main>
+        <form action="/add-post" method="POST" class="add-post-form">
+            <label for="title">BLOG TITLE</label>
+            <input type="text" id="title" name="title" placeholder="Enter the post title" required>
+
+            <label for="content">BLOG CONTENT</label>
+            <textarea id="content" name="content" rows="8" placeholder="Write your content here..." required></textarea>
+
+            <button type="submit">PUBLISH 🚀</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="/posts" class="back-btn">⬅️ Back to Posts</a>
+
+    </footer>
+</body>
+</html>

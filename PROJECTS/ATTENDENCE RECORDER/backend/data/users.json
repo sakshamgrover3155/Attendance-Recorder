@@ -1,0 +1,24 @@
+{
+    "students": [
+      {
+        "id": "s1",
+        "username": "student1",
+        "password": "$2a$10$1IYvltHLCPulGSG3qLuPf.a9HJfBsxA6gzfz9ZnKoFNL5KSKxpbL2",
+        "name": "Student One"
+      },
+      {
+        "id": "s2",
+        "username": "student2",
+        "password": "$2a$10$RqR5Ql7VoZvb.Jn3N5Ee5OwzJOIIqyHyFvX8JxPsS.IC2wMKUeFbG",
+        "name": "Student Two"
+      }
+    ],
+    "teachers": [
+      {
+        "id": "t1",
+        "username": "teacher1",
+        "password": "$2a$10$kNSXzM9Wrt3M1qJgYEeaPe8jk.Xs1qHDIkPWnv9Ky3eIsdwxXbRjy",
+        "name": "Teacher One"
+      }
+    ]
+  }

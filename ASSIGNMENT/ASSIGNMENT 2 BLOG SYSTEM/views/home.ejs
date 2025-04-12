@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOGVERSE</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><I>✨ BLOGVERSE ✨</I></h1>
+    </header>
+
+    <main>
+        <section class="post-container">
+            <% if (posts.length === 0) { %>
+                <p class="no-posts">No posts yet. <a href="/addpost" class="add-link">Add a new post</a>.</p>
+            <% } else { %>
+                <% posts.forEach(post => { %>
+                    <article class="post-card">
+                        <h2><a href="/post?id=<%= post.id %>" class="post-title"><%= post.title %></a></h2>
+                        <p class="post-content"><%= post.content.substring(0, 150) %>...</p>
+                    
+                        <form action="/delete-post" method="POST" class="delete-form" onsubmit="return confirmDelete('<%= post.title %>')">
+                            <input type="hidden" name="id" value="<%= post.id %>">
+                            <button type="submit" class="delete-btn">🗑️ Delete</button>
+                        </form>
+                    </article>
+                <% }); %>
+            <% } %>
+        </section>
+    </main>
+
+    <footer>
+        <a href="/addpost" class="add-btn">➕ Add New Post</a>
+    </footer>
+
+    <script>
+        function confirmDelete(title) {
+            return confirm(`Are you sure you want to delete the post: "${title}"?`);
+        }
+    </script>
+</body>
+</html>
