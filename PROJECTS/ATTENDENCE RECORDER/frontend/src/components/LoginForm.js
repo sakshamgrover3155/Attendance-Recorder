@@ -160,8 +160,8 @@ return (
     fontSize: '0.9rem',
     color: '#666'
   }}>
-    <p>Student accounts: student1/student1, student2/student2</p>
-    <p>Teacher account: teacher1/teacher1</p>
+    {/* <p>Student accounts: student1/student1, student2/student2</p>
+    <p>Teacher account: teacher1/teacher1</p> */}
   </div>
 </div>
 );

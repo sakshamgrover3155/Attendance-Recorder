@@ -8,17 +8,24 @@
       },
       {
         "id": "s2",
-        "username": "student2",
-        "password": "$2a$10$RqR5Ql7VoZvb.Jn3N5Ee5OwzJOIIqyHyFvX8JxPsS.IC2wMKUeFbG",
-        "name": "Student Two"
+        "username": "siddhant",
+        "password": "hellobhai",
+        "name": "Siddhant Grover"
+      },
+
+      {
+        "id": "s3",
+        "username": "guddu",
+        "password": "123456",
+        "name": "Guddu Grover"
       }
     ],
     "teachers": [
       {
         "id": "t1",
-        "username": "teacher1",
-        "password": "$2a$10$kNSXzM9Wrt3M1qJgYEeaPe8jk.Xs1qHDIkPWnv9Ky3eIsdwxXbRjy",
-        "name": "Teacher One"
+        "username": "palak",
+        "password": "040608",
+        "name": "Palak Gupta"
       },
 
       {
