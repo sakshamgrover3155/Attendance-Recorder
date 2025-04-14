@@ -25,7 +25,7 @@ const Layout = ({ children, title }) => {
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
-        <h1 style={{ margin:0, fontFamily: "cursive"}}>Attendance Recorder</h1>
+        <h1 style={{ margin:0, fontFamily: "cursive"}}>MarkNTrack</h1>
         {user && (
           <div style={{ display: 'flex', alignItems: 'center', fontFamily: 'cursive'}}>
             <span style={{ marginRight: '1rem' }}>
