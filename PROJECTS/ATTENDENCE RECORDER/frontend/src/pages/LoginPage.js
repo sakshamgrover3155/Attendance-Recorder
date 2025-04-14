@@ -15,7 +15,8 @@ const LoginPage = () => {
   }, [user, navigate]);
   
   return (
-    <Layout title="Welcome to Attendance Recorder">
+    <Layout title="">
+      
       <LoginForm />
     </Layout>
   );
