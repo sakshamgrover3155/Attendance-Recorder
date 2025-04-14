@@ -107,6 +107,15 @@
       "status": "present",
       "createdAt": "2025-04-13T13:32:31.247Z",
       "updatedAt": "2025-04-13T13:32:31.248Z"
+    },
+    {
+      "id": "att_1744632094973",
+      "studentId": "s1",
+      "studentName": "Saksham Grover",
+      "date": "2025-04-13",
+      "status": "present",
+      "createdAt": "2025-04-14T12:01:34.973Z",
+      "updatedAt": "2025-04-14T12:01:34.973Z"
     }
   ]
 }

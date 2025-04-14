@@ -39,12 +39,12 @@ return (
 <div style={{
   maxWidth: '400px',
   margin: '0 auto',
-  backgroundColor: 'white',
+  backgroundColor: '#fff',
   padding: '2rem',
   borderRadius: '8px',
   boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)'
 }}>
-  <h2 style={{ textAlign: 'center', marginBottom: '1.5rem' }}>Login</h2>
+  <h2 style={{ textAlign: 'center', marginBottom: '1.5rem', fontFamily: 'cursive' }}>LOGIN</h2>
   
   {error && (
     <div style={{
@@ -65,7 +65,9 @@ return (
         style={{
           display: 'block',
           marginBottom: '0.5rem',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          fontFamily: 'cursive'
+          
         }}
       >
         Username
@@ -79,7 +81,9 @@ return (
           width: '100%',
           padding: '0.75rem',
           borderRadius: '4px',
-          border: '1px solid #ddd'
+          border: '1px solid #ddd',
+          fontFamily: 'cursive'
+          
         }}
       />
     </div>
@@ -90,7 +94,8 @@ return (
         style={{
           display: 'block',
           marginBottom: '0.5rem',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          fontFamily: 'cursive'
         }}
       >
         Password
@@ -115,7 +120,8 @@ return (
         style={{
           display: 'block',
           marginBottom: '0.5rem',
-          fontWeight: 'bold'
+          fontWeight: 'bold',
+          fontFamily: 'cursive'
         }}
       >
         Role
@@ -128,7 +134,8 @@ return (
           width: '100%',
           padding: '0.75rem',
           borderRadius: '4px',
-          border: '1px solid #ddd'
+          border: '1px solid #ddd',
+          fontFamily: 'cursive'
         }}
       >
         <option value="student">Student</option>
@@ -142,12 +149,14 @@ return (
       style={{
         width: '100%',
         padding: '0.75rem',
-        backgroundColor: '#3f51b5',
+        backgroundColor: '#666',
         color: 'white',
         border: 'none',
+        fontSize : '1rem',
         borderRadius: '4px',
         cursor: loading ? 'not-allowed' : 'pointer',
-        opacity: loading ? 0.7 : 1
+        opacity: loading ? 0.7 : 1,
+        fontFamily: 'cursive'
       }}
     >
       {loading ? 'Logging in...' : 'Login'}
@@ -160,8 +169,8 @@ return (
     fontSize: '0.9rem',
     color: '#666'
   }}>
-    {/* <p>Student accounts: student1/student1, student2/student2</p>
-    <p>Teacher account: teacher1/teacher1</p> */}
+    {/* <p>Forgot Password? <a href=''>click here</a></p> */}
+    
   </div>
 </div>
 );

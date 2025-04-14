@@ -15,12 +15,13 @@ const StudentDashboard = () => {
         <button
           style={{
             padding: '0.75rem 1.5rem',
-            backgroundColor: activeTab === 'calendar' ? '#3f51b5' : 'transparent',
+            backgroundColor: activeTab === 'calendar' ? '#666' : 'transparent',
             color: activeTab === 'calendar' ? 'white' : '#333',
             border: 'none',
-            borderBottom: activeTab === 'calendar' ? '3px solid #3f51b5' : 'none',
+            borderBottom: activeTab === 'calendar' ? '3px solid #666' : 'none',
             cursor: 'pointer',
-            fontSize: '1rem'
+            fontSize: '1rem',
+            fontFamily: 'cursive'
           }}
           onClick={() => setActiveTab('calendar')}
         >
@@ -30,12 +31,13 @@ const StudentDashboard = () => {
         <button
           style={{
             padding: '0.75rem 1.5rem',
-            backgroundColor: activeTab === 'history' ? '#3f51b5' : 'transparent',
+            backgroundColor: activeTab === 'history' ? '#666' : 'transparent',
             color: activeTab === 'history' ? 'white' : '#333',
             border: 'none',
-            borderBottom: activeTab === 'history' ? '3px solid #3f51b5' : 'none',
+            borderBottom: activeTab === 'history' ? '3px solid #666' : 'none',
             cursor: 'pointer',
-            fontSize: '1rem'
+            fontSize: '1rem',
+            fontFamily: 'cursive'
           }}
           onClick={() => setActiveTab('history')}
         >

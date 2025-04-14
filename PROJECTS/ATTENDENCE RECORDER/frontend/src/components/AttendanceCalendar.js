@@ -124,7 +124,7 @@ const AttendanceCalendar = () => {
               key={day.day}
               style={{
                 padding: '0.5rem',
-                border: isToday ? '2px solid #3f51b5' : '1px solid #ddd',
+                border: isToday ? '2px solid #666' : '1px solid #ddd',
                 backgroundColor: 'white',
                 position: 'relative'
               }}

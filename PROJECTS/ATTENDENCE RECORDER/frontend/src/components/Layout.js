@@ -18,16 +18,16 @@ const Layout = ({ children, title }) => {
       flexDirection: 'column'
     }}>
       <header style={{
-        backgroundColor: '#3f51b5',
+        backgroundColor: '#666',
         color: 'white',
         padding: '1rem',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center'
       }}>
-        <h1 style={{ margin: 0 }}>Attendance Recorder</h1>
+        <h1 style={{ margin:0, fontFamily: "cursive"}}>Attendance Recorder</h1>
         {user && (
-          <div style={{ display: 'flex', alignItems: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', fontFamily: 'cursive'}}>
             <span style={{ marginRight: '1rem' }}>
               <strong>{user.name}</strong> ({user.role})
             </span>
@@ -39,7 +39,8 @@ const Layout = ({ children, title }) => {
                 color: 'white',
                 padding: '0.5rem 1rem',
                 borderRadius: '4px',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                fontFamily: 'cursive',
               }}
             >
               Logout
@@ -56,14 +57,15 @@ const Layout = ({ children, title }) => {
         <h2 style={{ 
           marginTop: 0,
           marginBottom: '1.5rem',
-          color: '#333'
+          color: '#333',
+          fontFamily: 'cursive'
         }}>{title}</h2>
         {children}
       </main>
 
       <footer style={{ 
         padding: '1rem',
-        backgroundColor: '#3f51b5',
+        backgroundColor: '#666',
         color: 'white',
         textAlign: 'center'
       }}>
