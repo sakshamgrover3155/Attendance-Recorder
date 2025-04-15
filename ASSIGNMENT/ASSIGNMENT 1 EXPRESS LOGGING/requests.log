@@ -1,3 +1,0 @@
-{"timestamp":"2025-01-21T17:01:30.705Z","ipAddress":"::1","url":"/","protocol":"http","httpMethod":"GET","hostname":"localhost"}
-{"timestamp":"2025-01-21T17:03:20.604Z","ipAddress":"::1","url":"/requests.log","protocol":"http","httpMethod":"GET","hostname":"localhost"}
-{"timestamp":"2025-01-21T17:07:04.485Z","ipAddress":"::ffff:127.0.0.1","url":"/","protocol":"http","httpMethod":"GET","hostname":"localhost"}
